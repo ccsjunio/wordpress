@@ -19,7 +19,7 @@ of this theme. This also displays the navigation menu as well or any extra featu
     <footer id="site-footer" class="site-footer">
         <div id="site-info" class="site-info">
             <span class="footer-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></span>
-            <a href="<?php echo esc_url(__('https://wordpress.org/', 'splendid-portfolio' ) ); ?>"><?php printf(__('Proudly Powered By: %s', 'splendid-portfolio'), 'WordPress'); ?></a>
+            <!--<a href="<?php echo esc_url(__('https://wordpress.org/', 'splendid-portfolio' ) ); ?>"><?php printf(__('Proudly Powered By: %s', 'splendid-portfolio'), 'WordPress'); ?></a>-->
         </div>
     </footer>
     <?php wp_footer(); ?>
